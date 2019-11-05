@@ -1,0 +1,91 @@
+@media (max-width: 480px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    #intro, #about, #projects, #skills, #contact {
+        height: 850px;
+    }
+
+    #portrait {
+        width: 70%;
+    }
+
+    #projects {
+        height: 2000px;
+    }
+
+    #about-text-container > p {
+        padding: 12px;
+    }
+
+    #contact-header {
+        padding-top: 100px;
+    }
+
+    .outer-container {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .project-flex-container {
+        display: block;
+    }
+
+    .project-container {
+        width: 75%;
+        margin-top: 10px;
+    }
+
+    .project-info-container {
+        height: 200px;
+    }
+
+    .project-description {
+        font-size: 19px;
+        font-family: Arial;
+    }
+
+    .project-img {
+        width: 75%;
+        min-height: 205px;
+    }
+
+    .skills-img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 900px) {
+    .project-flex-container {
+        height: 2000px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1920px) {
+    .project-flex-container {
+        height: 1000px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1920px) {
+    #about {
+        height: 725px;
+    }
+}
